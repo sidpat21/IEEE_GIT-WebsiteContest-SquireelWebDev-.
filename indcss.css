@@ -1,0 +1,408 @@
+.bg-color{
+  background-color: #fff;
+}
+
+
+.nav-item{
+  padding-left: 0.5em;
+  padding-right: .05em;
+  font-size: 1.5em;
+
+}
+
+.navbar-toggler-icon{
+  color: #000 !important;
+  font-size: 1.8em;
+}
+.nav-link{
+  color: #003366 !important;
+  font-size: 1em;
+  font-family: cursive;
+}
+.navbar{
+   border-radius: 0px 0px 40px 40px;
+}
+
+.xtimg{
+
+}
+
+.w3-center{
+  font-family: 'Ubuntu', sans-serif;
+  color: #0f4c75;
+}
+
+.con{
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.updates{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.navbar .dropdown-menu {
+  padding: 0;
+  background-color: rgba(0, 0, 0, .9);
+}
+.navbar .dropdown-menu .dropdown-item {
+  position: relative;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  transition: color 0.2s ease-in;
+}
+.navbar .dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background: transparent;
+  color: #c0ca33;
+}
+.navbar .dropdown-menu .dropdown-item::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 5px;
+  background-color: #c0ca33;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+.navbar .dropdown-menu .dropdown-item:hover::before {
+  opacity: 1;
+}
+.dropdown-menu {
+    min-width: 200px;
+    -webkit-animation: dropdown-animation 0.3s;
+    animation: dropdown-animation 0.3s;
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+  }
+  .contact-form{
+    background-color: #1f4068;
+    color:#fff;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px 3px grey;
+  }
+
+.carousel-control-prev{
+  background-color: grey;
+}
+.carousel-control-next{
+  background-color: grey;
+
+}
+  #ffform{
+    display: none;
+  }
+  #footer{
+    background-color: #003366;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+  .si{
+    margin: 20px 10px;
+    color: #fff;
+  }
+
+  .imgpadding{
+    padding: 2em;
+  }
+
+  .containerimg{
+    padding: 5em;
+  }
+
+  p{
+font-family: 'Mulish', sans-serif;    font-size: 1.5em;
+  }
+
+  .mt-4{
+  font-family: 'Lato', sans-serif;
+  color: #393e46;
+  }
+
+
+  hr {
+      border: none;
+      height: 1px;
+      /* Set the hr color */
+      color: #333; /* old IE */
+      background-color: grey; /* Modern Browsers */
+  }
+
+  .upper{
+    background-color: #0f4c75;
+    color: #fff;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+  }
+
+  .ieee{
+    padding: 20px 0px 30px 600px;
+  }
+
+  .content{
+
+
+  }
+li{
+  font-size: 1.5em;
+  font-family: 'Mulish', sans-serif;
+  padding:5px;
+}
+
+#headernav{
+  background-color: #ef8172;
+  background-image:url(img/bac4.jpg);
+
+}
+  #testimonials{
+    height: 40em;
+    background-image:url(img/bac4.jpg);
+      text-align: center;
+      background-color: #ef8172;
+      color: #ffffff;
+  }
+  .carousel-item{
+      /* padding: 7% 15%; */
+  }
+
+  .testimonial-image{
+    max-height: 500px;
+    overflow: auto;
+  }
+
+.latestupdate{
+
+}
+
+.innerlatestupdate{
+  /* width: 30em;
+  height: 20em; */
+  border: solid;
+  border-radius: 5px;
+  font-size: 13px;
+  overflow: auto;
+}
+  #ieeehistory{
+    background-image:url(img/bac4.jpg);
+    padding: 3em;
+
+  }
+
+
+  .navMenu ul li:nth-child(1){
+    float: left;
+
+  }
+  .video-js .vjs-control-bar,
+  .video-js .vjs-big-play-button,
+  .video-js .vjs-menu-button .vjs-menu-content {
+    /* IE8 - has no alpha support */
+    background-color:#003366;
+    /* Opacity: 1.0 = 100%, 0.0 = 0% */
+    background-color: rgba(#003366, 0.7);
+  }
+
+  .vjs-default-skin .vjs-big-play-button {
+    font-size: 2.5em;
+    $big-play-width: 3em;
+    $big-play-height: 1.5em;
+    line-height: $big-play-height;
+    height: $big-play-height;
+    width: $big-play-width;
+    border: 0.06666em solid $primary-foreground-color;
+    border-radius: 0.3em;
+      left: 40%;
+      top: 40%;
+      margin-left: -($big-play-width / 2);
+      margin-top: -($big-play-height / 2);
+  }
+
+  /* .videolayout{
+    margin: auto;
+    padding: 5em;
+  } */
+
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2.5);
+  }
+
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  /* header navigation bar */
+  #title{
+    background-color: #fff;
+    color: #fff;
+    height: 100px;
+    box-shadow: 0 10px 20px -6px #888888;
+
+  }
+
+  .header{
+    padding: 1% 10%;
+  }
+  #events{
+    background-color: #00a7be;
+    padding: 50px;
+    text-align: center;
+
+  }
+.mobile{
+}
+  #videosection{
+
+    text-align: center;
+  }
+  .up{
+    color: #fff;
+  }
+
+  #topsection{
+    padding: 100px;
+    text-align: center;
+  }
+
+  #sec{
+    padding: 100px;
+    text-align: center;
+  }
+  #collid{
+    position:left;
+
+  }
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+
+  .pricing-column{
+    padding: 3% 2%;
+  }
+
+  .divider{
+    background-color: grey;
+    height: 1px;
+  }
+  .coll{
+    height: 20em;
+    width: 250px;
+    background-color: #fff;
+    border-color: pink;
+    border-style:solid;
+    border-radius: 1em;
+  }
+
+  .colhead{
+      background-color: #00a7be;
+      color: #fff
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .cardholder{
+    padding:1em;
+    padding-bottom: 2em;
+  }
+  /* #footer{
+    background-color: #00a7be;
+    padding: 7% 15%;
+    text-align: center;
+  } */
+
+  .si{
+    margin: 20px 10px;
+  }
+
+
+
+  /* events page css */
+
+  #eventsnav{
+    padding: 100px;
+
+  }
+
+  .navlinkcolor{
+    color: #003366;
+  }
+  .activediv{
+    width: 80%;
+    padding: 5em;
+    background-color: #fffdd0;
+    display: none;
+  }
+
+  /* contact */
+  #contact{
+    background-color: #00a7be;
+  }
+  .contact-form{
+    background-color: #1f4068;
+    color:#fff;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px 3px grey;
+  }
+
+
+  .form-control{
+    width: 15em;
+  }
+
+  #youtube{
+    padding: 2em;
+    background-color: #ef8172;
+
+  }
+  .pav{
+    padding: 2em;
+  }
+
+  #blocktwitter{
+  }
+
+
+
+
+
+
+
+
+.footso{
+  text-align:left;
+
+}
+
+.footcont{
+  text-align:left;
+}

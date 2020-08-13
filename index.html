@@ -1,120 +1,218 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <title>KLS GIT IEEE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="indcss.css"/>
 
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Recursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Major+Mono+Display&family=Sora&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <title> KLS IEEE</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   </head>
   <body>
+    <!-- Navigation -->
+    <section id="headernav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-color static-top">
+        <div class="container">
+          <a class="navbar-brand" href="">
+            <h3 class="w3-center">KLS GIT IEEE</h3>
 
-    <!-- Sidebar (hidden by default) -->
-    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:300px" id="mySidebar">
-      <a href="javascript:void(0)" onclick="w3_close()"
-      class="w3-bar-item w3-button">Close Menu</a>
-      <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
-      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-    </nav>
+                <img src="img/git_logo.jpg" alt="" width="65px" height="65px">
+                <img  src="img/ieee_git_logo.jpg" alt="ieee logo"  width="65px" height="65px">
 
-    <!-- Top menu -->
-    <div class="w3-top">
-      <div class="w3-white w3-xlarge" style="max-width:100%;margin:auto">
-        <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-        <div class="w3-right w3-padding-16">
-          <div class="md-form active-pink active-pink-2 mb-3 mt-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">☰</span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link navlinkcolor" href="index.html">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+
+              <li class="dropdown nav-item">
+              						<a href="" class="nav-link" data-toggle="dropdown">About</a>
+              						<div class="dropdown-menu">
+              							<a href="about_ieee.html" class="dropdown-item">About IEEE</a>
+              							<a href="about_ieee_git.html" class="dropdown-item">About GIT IEEE</a>
+              						</div>
+              </li>
+              <li class="nav-item">
+              		<a href="events.html" class="nav-link">Events</a>
+
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" onclick="op()" href="execom.html">EXECOM</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="achieve.html">Achievments</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact Us</a>
+              </li>
+
+            </ul>
           </div>
         </div>
-        <div class="w3-center w3-padding-16">KLS IEEE</div>
-      </div>
-    </div>
-
-    <section id="topsection">
-      <img  width="100px" height="100px" src="img/git_logo.jpg" alt="GIT LOGO">
-      <img  width="100px" height="100px" src="img/ieee_git_logo.jpg" alt="IEEE LOGO">
-   </section>
-
-
-
-    <section id="events">
-      <h3 class="up">Upcomming Events</h3>
-
-      <div class="row">
-
-
-      <div class="cardholder col-lg-4 col-md-6">
-        <div class="card" style="width: 18rem;">
-          <img src="img/postercard.jpeg" class="card-img-top" alt="poster">
-          <div class="card-body">
-            <h4><b>IEEE Website Designing</b></h4>
-            <p>24-July to 13 Aug</p>
-          </div>
-        </div>
-      </div>
-      </div>
+      </nav>
 
     </section>
+
+    <section id="testimonials" >
+
+      <div class="updates">
+        <div class="row">
+            <img class="xtimg" style="" src="img/xt.jpg" alt="">
+
+          <div style="color:#000; padding-left: 40px; padding-top: 40px;">
+            <h1><b style="color:#003366;">IEEEXtreme</b></h1>
+            <h2>24 hours of competitive programming <br> is waiting for you.</h2>
+
+            <a href="http://ieeextreme.wpengine.com/registration-tips/"><button class="btn-primary btn" style="font-size:1.5em;" type="button" name="button">Register Now</button></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
 
 
 
     <section id="videosection">
 
-      <div class="row">
+      <div class="aandu">
+        <div class="row">
+            <div class="pav col-lg-4 col-md-6">
+              <h1><b class="mobile">About</b> <i class="mobile" style="font-family:cursive;">IEEE Strategic Plan</i></h1>
 
-          <div class="cardholder col-lg-4 col-md-6">
-            <video class="video-js vjs-default-skin" width="400px" height="225px" poster="img/ieee_video_cover.png" controls data-setup='{}'>
-              <source src="https://covid19-risk-assesment-tool.000webhostapp.com/ieee/IEEE.mp4" type="video/mp4">
-              <p class="vjs-no-js">Javascript is disabled</p>
-            </video>
+              <video class="video-js vjs-default-skin" width="400px" height="225px" poster="img/ieee_video_cover.png" controls data-setup='{}'>
+                <source src="https://covid19-risk-assesment-tool.000webhostapp.com/ieee/IEEE.mp4" type="video/mp4">
+                <p class="vjs-no-js">Javascript is disabled</p>
+              </video>
+            </div>
+
+            <div class="pav latestupdate">
+              <h1><b class="mobile">Latest from</b> <i class="mobile" style="font-family:cursive;">IEEE</i></h1>
+                <div class="innerlatestupdate">
+                  <p> <b style="color:red">Registration for IEEEXtreme 14.0 is now open!!!</b><br>
+
+IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch –compete in a 24-hour time span against each other to solve a set of programming problems.
+
+It's absolutely free for IEEE student members and <b style="color:green">you can win prizes worth USD 10,000!!!!.</b>
+
+<br>For registration and further details please check the link below:
+
+<a href="http://ieeextreme.wpengine.com/registration-tips/">http://ieeextreme.wpengine.com/registration-tips/</a>
+
+</p>
+                </div>
+            </div>
+
           </div>
+      </div>
 
-        <div class="cardholder col-lg-4 col-md-6">
-          <video class="video-js vjs-default-skin" width="400px" height="225px" poster="img/index.jpg" controls data-setup='{}'>
-            <source src=" https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-            <p class="vjs-no-js">Javascript is disabled</p>
-          </video>
-        </div>
+
+
+
+
+
+      <!-- <div id="blocktwitter">
+        <blockquote class="twitter-tweet" width="10em" height="5em">
+          <p lang="en" dir="ltr">As we look to the future of
+            <a href="https://twitter.com/hashtag/education?src=hash&amp;ref_src=twsrc%5Etfw">#education</a>
+            , technology is playing a larger role in supporting both online and in-person environments.
+            <a href="https://twitter.com/EdTech_K12?ref_src=twsrc%5Etfw">@EdTech_K12</a>
+             reveals new tech like contact tracing that could help improve safety with
+             <a href="https://twitter.com/hashtag/IEEE?src=hash&amp;ref_src=twsrc%5Etfw">#IEEE</a>
+              Impact Creator Ella Atkins. <a href="https://t.co/ir1RPyryma">https://t.co/ir1RPyryma</a>
+          </p>
+          &mdash; IEEE (@IEEEorg)
+          <a href="https://twitter.com/IEEEorg/status/1291881057747374080?ref_src=twsrc%5Etfw">August 7, 2020</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div> -->
+    </section>
+
+    <section id="youtube">
+      <h3>Watch our Youtube channel</h3>
+      <div class="row">
+            <iframe class="pav" width="500" height="315" src="https://www.youtube.com/embed/AAfxJiXe8wE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="pav" width="500" height="315" src="https://www.youtube.com/embed/ZjZF__CEf4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
     </section>
 
 
 
+      <div id="ffform" onclick="myFunction()" class="container contact-form">
+          <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Email:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Contact:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+          <button class="btn btn-primary btn-block" style="width:15em">Submit</button>
+          </div>
+        </div>
 
-  <footer id="footer">
-    <i class="si fab fa-facebook-f"></i>
-    <i class="si fab fa-twitter"></i>
-    <i class="si fab fa-instagram"></i>
-    <i class="si fas fa-envelope"></i>
-    <p>© Copyright 2020 KLS IEEE</p>
 
-  </footer>
+    <footer id="footer">
+      <div class="row">
+        <div class="footso">
+          <h2>Share on our Social Media</h2>
+          <a href="https://www.facebook.com/IEEEGIT/"><i class="si fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/ieeegit?lang=en"><i class="si fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/ieee_git_official/?hl=en"><i class="si fab fa-instagram"></i></a>
+          <a href="mailto:gitieee@gmail.com"><i class="SendEmail si fas fa-envelope"></i></a>
+        </div>
+          <div class="footcont">
+            <h2>Contact Us</h2>
+            <p>Address:Dept. of E&C Engineering,KLS’s Gogte Institute of Technology Udyambag, Khanapur Road Belagavi – 590008, KARNATAKA</p>
+            <p>Contact: +91-831-2498500, extension- 269 Email address: gitieee@gmail.com</p>
+            <button id="contact" type="button" class="btn btn-primary" onclick="pop()" name="button">Contact Us Now</button>
 
+          </div>
+      </div>
+
+
+        <p style="padding-top:50px;">© Copyright 2020 KLS IEEE</p>
+
+    </footer>
 
     <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="indjava.js"></script>
     <script>
-    // Script to open and close sidebar
-    function w3_open() {
-      document.getElementById("mySidebar").style.display = "block";
-    }
-
-    function w3_close() {
-      document.getElementById("mySidebar").style.display = "none";
+    // When the user clicks on div, open the popup
+    function myFunction() {
+      var popup = document.getElementById("ffform");
+      popup.style.display.block;
     }
     </script>
-
-    <script src="app.js"></script>
   </body>
 </html>
